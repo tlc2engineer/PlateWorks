@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/lh1"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:orientation="horizontal"
+
+            >
+
+            <ImageButton
+                android:id="@+id/cmap_btn1"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:gravity="center_horizontal"
+                android:padding="1dp"
+                android:src="@drawable/ic_zoom_out_map_black_24dp"
+                android:textSize="25dp" />
+
+            <ImageButton
+                android:id="@+id/updbtnx1"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:gravity="center_horizontal"
+                android:padding="1dp"
+                android:src="@drawable/ic_autorenew_black_24dp"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/place_view1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="Место 19-1"
+                android:textColor="#0000FF"
+                android:textSize="18dp"
+                android:textStyle="normal|bold"
+                android:typeface="normal" />
+
+            <ImageButton
+                android:id="@+id/postBtn1"
+                android:layout_width="70dp"
+
+                android:layout_height="40dp"
+                android:layout_margin="0dp"
+
+                android:src="@drawable/ic_file_upload_black_24dp" />
+
+        </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mlist1"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="200dp"
+        android:layout_margin="2dp"
+       ></android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/lh2"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+
+
+        >
+
+        <ImageButton
+            android:id="@+id/cmap_btn2"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center_horizontal"
+            android:padding="1dp"
+            android:src="@drawable/ic_zoom_out_map_black_24dp"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/updbtnx2"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center_horizontal"
+            android:padding="1dp"
+            android:src="@drawable/ic_autorenew_black_24dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/place_view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="Место 19-1"
+            android:textColor="#0000FF"
+            android:textSize="18dp"
+            android:textStyle="normal|bold"
+            android:typeface="normal" />
+
+        <ImageButton
+            android:id="@+id/postBtn2"
+            android:layout_width="70dp"
+
+            android:layout_height="40dp"
+            android:layout_margin="0dp"
+
+            android:src="@drawable/ic_file_upload_black_24dp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mlist2"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+         />
+
+
+</LinearLayout>

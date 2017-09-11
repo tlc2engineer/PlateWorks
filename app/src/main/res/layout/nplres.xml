@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/lh1"
+
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintRight_toLeftOf="@+id/guideline">
+
+        <ImageButton
+            android:id="@+id/cmap_btn1"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center_horizontal"
+            android:padding="1dp"
+            android:src="@drawable/ic_zoom_out_map_black_24dp"
+            android:textSize="25dp" />
+        <ImageButton
+            android:id="@+id/updbtnx1"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center_horizontal"
+            android:padding="1dp"
+            android:src="@drawable/ic_autorenew_black_24dp"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/place_view1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="Место 19-1"
+            android:textColor="#0000FF"
+            android:textSize="18dp"
+            android:textStyle="normal|bold"
+            android:typeface="normal" />
+
+        <ImageButton
+            android:id="@+id/postBtn1"
+            android:layout_margin="0dp"
+
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+
+            android:src="@drawable/ic_file_upload_black_24dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lh2"
+
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline">
+
+        <ImageButton
+            android:id="@+id/cmap_btn2"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center_horizontal"
+            android:padding="1dp"
+            android:src="@drawable/ic_zoom_out_map_black_24dp"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/updbtnx2"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center_horizontal"
+            android:padding="1dp"
+            android:src="@drawable/ic_autorenew_black_24dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/place_view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="Место 19-1"
+            android:textColor="#0000FF"
+            android:textSize="18dp"
+            android:textStyle="normal|bold"
+            android:typeface="normal" />
+
+        <ImageButton
+            android:id="@+id/postBtn2"
+            android:layout_width="70dp"
+
+            android:layout_height="40dp"
+            android:layout_margin="0dp"
+
+            android:src="@drawable/ic_file_upload_black_24dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/mlist2"
+        android:layout_width="0dp"
+
+        android:layout_height="200dp"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lh2"
+        app:layout_constraintVertical_bias="0.0"></ListView>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_percent="0.52"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="308dp" />
+
+    <ListView
+        android:id="@+id/mlist1"
+        android:layout_width="0dp"
+
+        android:layout_height="200dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="8dp"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/lh1"></ListView>
+
+
+</android.support.constraint.ConstraintLayout>

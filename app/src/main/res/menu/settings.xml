@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+ 
+ <item android:id="@+id/place" android:showAsAction="ifRoom|withText" android:title="Место"></item>
+  <item android:id="@+id/mapItem"  android:title="Карта"></item>
+      <item android:id="@+id/searchMap" android:title="Поиск"></item>
+</menu>

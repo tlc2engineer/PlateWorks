@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    android:layout_margin="2dp"
+    
+    android:orientation="horizontal" >
+
+    <ListView
+        android:id="@+id/cashelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+         android:layout_weight="1" >
+    </ListView>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        
+        android:text="+" />
+
+</LinearLayout>

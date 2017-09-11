@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.plateworks.MainActivity" >
+
+
+    <group
+        android:id="@+id/amap"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/get_all_map"
+            android:title="@string/get_all_map"
+            android:visible="true" />
+
+    </group>
+
+    <item android:id="@+id/searchItem"
+       
+         android:title="Поиск"></item>
+    <item android:id="@+id/settings"
+
+
+        android:title="Свойства"></item>
+    <item android:id="@+id/help" android:title="@string/help"></item>
+    <item android:id="@+id/out" android:title="@string/out"></item>
+  
+
+</menu>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/sid"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text|number"
+        app:layout_constraintLeft_toRightOf="@+id/sheat"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView19"
+        style="@style/searchText"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="ID сляба:     "
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/sthick" />
+
+    <EditText
+        android:id="@+id/sthick"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintLeft_toRightOf="@+id/spred"
+        android:layout_marginLeft="22dp">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView18"
+        style="@style/searchText"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Толщина:     "
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/sgrade" />
+
+    <EditText
+        android:id="@+id/sgrade"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:ems="10"
+        app:layout_constraintLeft_toRightOf="@+id/sorder"
+        app:layout_constraintTop_toBottomOf="@+id/textView17">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView17"
+        style="@style/searchText"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="111dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="Марка:         "
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/sheat"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView16">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView16"
+        style="@style/searchText"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Плавка:       "
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spred" />
+
+    <EditText
+        android:id="@+id/spred"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView15"
+        style="@style/searchText"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Предъявка:"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sorder" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        style="@style/searchBtn"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:text="Найти"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sid"
+        app:layout_constraintVertical_bias="0.689" />
+
+    <EditText
+        android:id="@+id/sorder"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView14"
+        style="@style/searchText"
+        android:layout_width="99dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="Заказ:          "
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/until_date"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        style="@style/searchBtn"
+        android:layout_marginRight="31dp"
+        android:text="@string/until"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgsdate"
+        android:layout_marginEnd="7dp"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:id="@+id/from_date"
+        style="@style/searchBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/from"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="31dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/endsdate"
+        android:layout_width="97dp"
+        style="@style/searchText"
+        android:layout_height="22dp"
+        android:layout_weight="0.2"
+        android:ems="10"
+        android:text="10/31/2016"
+        android:layout_marginStart="100dp"
+        android:layout_marginRight="34dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/until_date" />
+
+    <TextView
+        android:id="@+id/bgsdate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:ems="10"
+        android:text="10/31/2016"
+        style="@style/searchText"
+        android:layout_marginStart="100dp"
+        android:layout_marginRight="31dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/from_date">
+
+    </TextView>
+
+</android.support.constraint.ConstraintLayout>

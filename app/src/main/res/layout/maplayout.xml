@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:orientation="horizontal" >
+
+  
+<LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="#000000"
+                        android:orientation="vertical" >
+
+                        <ImageButton
+                            android:id="@+id/place_btn"
+                            android:layout_width="70dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginRight="1px"
+                            android:background="#ffffff"
+                            android:gravity="center"
+
+                            android:src="@drawable/ic_call_missed_outgoing_black_24dp"
+                            android:text="@string/place" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.125"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginRight="1px"
+                            android:gravity="center_vertical|center_horizontal|center"
+                            android:text="1" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center|center_vertical"
+                            android:layout_weight="0.125"
+                            android:gravity="center_vertical|center_horizontal|center"
+                             android:background="#ffffff"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginRight="1px"
+                            android:text="2" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.125"
+                            android:gravity="center"
+                             android:background="#ffffff"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginRight="1px"
+                            android:text="3" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.125"
+                            android:gravity="center"
+                             android:background="#ffffff"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginRight="1px"
+                            android:text="4" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.125"
+                            android:gravity="center"
+                             android:background="#ffffff"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginRight="1px"
+                            android:text="5" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.125"
+                            android:gravity="center"
+                             android:background="#ffffff"
+                           android:layout_marginBottom="1px"
+                           android:layout_marginRight="1px"
+                            android:text="6" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.125"
+                            android:gravity="center"
+                             android:background="#ffffff"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginRight="1px"
+                            android:text="7" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.125"
+                             android:background="#ffffff"
+                           android:layout_marginRight="1px"
+                            android:gravity="center"
+                            android:text="8" />
+
+                    </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/mapScrollView"
+                android:layout_width="match_parent"
+                android:background="#7F008F"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/mapLayout"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal" >
+
+                    
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+       
+      
+   
+
+</LinearLayout>

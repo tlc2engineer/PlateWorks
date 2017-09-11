@@ -1,0 +1,27 @@
+<p>This program is work calendar for people which work in shifts. It can be used like a calendar or alarm clock.
+Days indicates with the helps of different colors, each day has  own color. 
+Colors define by user. Program can work in three modes: single shift, many shifts, and filter mode.<p>
+<p>To start work user have to define his work days. Every day has name and color. Tap Menu->Days->Add Day an go edit days.
+ You can select name of the day, color.If you want to enable alarm clock for this day, uncheck "disable" checkbox, 
+ and set alarm time, time begin work and time end work.
+Click "Ok" to add day. User can also edit day.</p>
+<p>To create shift tap Shifts->Create shift. Next you see empty calendar with buttons corresponding colors of the day. 
+First of all you have to select first day of the shift tap to any date of the calendar. 
+After that tap to color buttons and add day. If you want delete day tap to Delete button. 
+If you delete all days you can select first day again. Tap Save button and print a name of the shift. 
+If you want to return to main shift click Back button. You can also edit and delete the shifts from menu Shifts. 
+You cannot delete Default shift.</p>
+<p>After that you to set the main shift and additional shifts. Click to the top white area of the activity(where month and year displayed) and you see Shift select dialog.
+Or Tap Shifts->Set shift and select the main shift. If you want to display additional shifts tap 
+Preferences uncheck the box One Shift, enable shift that you want to display and select name of the shift.</p>
+<p>To define filter tap Menu-Filter, than you see Filter window. 
+In the up side of window you see "Reset" button which reset filter. 
+Next  you  see  expandable list view which defines the filter. List contains " Days of week" list, and list for each shift. 
+Filter sets by selecting fields. Selected days in the list display have green color. Filter using "end" logic. 
+For example if you select Monday on "Days of week" list, and second day of first shift,  filter will return true if that day 
+is Monday and in this day second day of first shift.If you don't select any day in list, this filter disabled. 
+Return in main window using "Back" button. On the main window filtered days fields have red color. 
+If you want to set filter mode Tap "Filter mode" in option menu.</p>
+<p>If you uncheck disable option in any day, alarm clock is enabled. You can set rington for alarm clock in  Preferences menu.</p>
+
+
